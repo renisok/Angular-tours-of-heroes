@@ -13,10 +13,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 @NgModule({
   declarations: [
     AppComponent,
+    DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent,
-    DashboardComponent
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
